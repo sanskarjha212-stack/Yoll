@@ -1,0 +1,43 @@
+body{
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.hello .hello-in{
+  height: 40px;
+  width: 300px;
+  font-size: 13px;
+  border-radius: 13px;
+  border: none;
+  box-shadow: 40px 20px 10px 2px rgba(0, 0, 0, 0.05);
+}
+
+::placeholder{
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.input-submit{
+  position: relative;
+}
+
+.submit-btn{
+  height: 50px;
+  width: 300px;
+  border-radius: 30px;
+  background: black;
+  cursor: pointer;
+}
+
+.input-submit label{
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  top: 35%;
+  left: 40%;
+  font-weight: bold;
+}
