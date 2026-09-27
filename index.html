@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  <title>My World</title>
+</head>
+
+<body>
+  <form action="https://sheetdb.io/api/v1/yinxhdnlsw5id" method="post">
+   
+   <div class="hello"> 
+    <input class="hello-in" type="text" name="data[Name]" id="uname" placeholder="Enter your Name"><br><br>
+    <input class="hello-in" type="text" name="data[Age]" id="uno" placeholder="Enter your Age"><br><br>
+    <input class="hello-in" type="text" name="data[Class]" id="uclass" placeholder="Enter your Class"><br><br>
+   </div>
+   
+  <div class="input-submit">
+    <input type="submit" id="submitBtn" class="submit-btn" value="SUBMIT">
+    <label for submit>Submit</label>
+</div>
+
+</form>
+
+<script>
+const form = document.querySelector("form");
+const submitBtn = document.getElementById("submitBtn");
+
+form.addEventListener("submit", function() {
+    submitBtn.disabled = true;
+    submitBtn.value = "Submitting...";
+});
+</script>
+
+</body>
+
+  </html>
